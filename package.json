@@ -1,0 +1,21 @@
+{
+  "name": "steam-bot-idler",
+  "version": "1.0.0",
+  "description": "steam bot idler",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+  },
+  "keywords": [
+    "bot",
+    "steam",
+    "idle"
+  ],
+  "author": "Joanpixer",
+  "license": "MIT",
+  "dependencies": {
+    "readline": "*",
+    "steam-totp": "*",
+    "steam-user": "*",
+  }
+}
