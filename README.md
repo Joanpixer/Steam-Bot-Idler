@@ -37,7 +37,8 @@ To check the total time farmed enter the following command: __*farmed*__.
 # Functionality
 Upon successful authentication, the bot will set its persona state and game status as specified in the configuration file.  
 When a friend message is received, the bot will retrieve the sender's display name and log the message to the console.  
-If the bot is disconnected from Steam, a message will be logged to the console with the __*Error Code*__ and __*Message*__. It will __*auto-reconnect*__.  
+If the bot is disconnected from Steam, a message will be logged to the console with the __*Error Code*__ and __*Message*__ (If present),  
+it will __*auto-reconnect*__.  
 When the script is exited, the total time that the bot was farming will be displayed.  
 
 # Further Reading
