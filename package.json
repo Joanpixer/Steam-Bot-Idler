@@ -4,7 +4,7 @@
   "description": "steam bot idler",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js",
+    "start": "node bot.js"
   },
   "keywords": [
     "bot",
@@ -16,6 +16,6 @@
   "dependencies": {
     "readline": "*",
     "steam-totp": "*",
-    "steam-user": "*",
+    "steam-user": "*"
   }
 }
