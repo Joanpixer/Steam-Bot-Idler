@@ -77,6 +77,7 @@ const getTimeFarmed = () => {
   // Get seconds and minutes and format in 00:00
   const days = Math.floor(((timeDiff / 60) / 60) / 24);
   const hours = days > 0 ? Math.floor(((timeDiff / 60) / 60) % 24) : Math.floor((timeDiff / 60) / 60);
+  hours = hours.toString().padStart(2, "0");
   const minutes = Math.floor((timeDiff / 60) % 60).toString().padStart(2, "0");
   const seconds = Math.floor(timeDiff % 60).toString().padStart(2, "0");
   console.log();
