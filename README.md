@@ -17,10 +17,17 @@ __*sharedSecret*__: The shared secret for the bot's Steam 2FA (If present).
 __*playing*__: The games that the bot will be marked as playing (APPIDs sepparated by commas).  
 __*state*__: The bot's persona state. Must be one of the following values: Offline, Online, Busy, Away, Snooze, Looking to trade, Looking to play, Invisible.
 
+# Installation
+To install the bot, you will need to clone or download the repository and then run the following command inside the folder:
+
+<b>npm i</b>
+
+This will install the required libraries for the bot to work (You will need to have __*node.js*__ installed for this to work).
+
 # Usage
 To start the bot, run the following command:
 
-<b>node index.js</b>
+<b>node bot.js</b>
 
 The script has a CLI implemented for user input.  
 ### Commands:
